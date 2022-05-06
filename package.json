@@ -1,0 +1,23 @@
+{
+  "name": "training-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc && node build/App.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^8.2.1",
+    "csv-parse": "^5.0.4",
+    "inquirer": "^8.2.4",
+    "inquirer-table-prompt": "^0.2.1"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.5.0",
+    "ts-jest": "^28.0.1"
+  }
+}
